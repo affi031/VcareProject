@@ -26,6 +26,8 @@ function Home() {
           <img className='home--image7' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/6.jpg'></img>
 
           </div>
+          <div className="home--row--class">
+          
             <div className='home--row--container'>
             <div className="home--row">
                <Link to="/head">
@@ -51,6 +53,7 @@ function Home() {
                image="https://www.researchgate.net/publication/333898976/figure/fig1/AS:771855384338432@1561036072182/Brief-anatomy-of-lower-body-bone-structure-of-human-body-3.png"
                />
                </Link>
+                 </div>
                  </div>
 
                
