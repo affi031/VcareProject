@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css';
 import Head from './Head';
+import Diseases from './Diseases';
 import Component from './Component';
 // import { Link } from 'react-router-dom';
 import { Link } from 'react-router-dom';
@@ -28,10 +29,32 @@ function Home() {
             <div className='home--row--container'>
             <div className="home--row">
                <Link to="/head">
-                 <img  className='human-body' src='https://innerbody.imgix.net/MU-Female-Anterior_0.png?w=313&auto=format'></img>
-                 </Link>
-         
-           {/* <Component 
+                <Diseases 
+               info="Click Here To CHeck Diseases Related To Head.."
+               image="https://www.prints-online.com/p/164/anatomy-head-throat-609838.jpg.webp"  
+               />
+               </Link>
+              </div>
+            <div className="home--row">
+               <Link to="/body">
+              <Diseases 
+               info="Click Here To CHeck Diseases Related To Body.."
+               image="https://scontent.fbom51-1.fna.fbcdn.net/v/t1.18169-9/69866_151413974900531_7782621_n.jpg?stp=cp0_dst-jpg_e15_p320x320_q65&_nc_cat=103&ccb=1-5&_nc_sid=7aed08&_nc_ohc=toVhc1RSsNIAX-DHfBf&_nc_ht=scontent.fbom51-1.fna&oh=00_AT-BiwenYWgPBNn37cYS42_BcKMCAyhxdyWgzv6fLO7acg&oe=627A19F0"
+               />
+               </Link>
+                 </div>
+              
+                 <div className="home--row">
+                    <Link to="/lowerbody">
+              <Diseases 
+               info="Click Here To CHeck Diseases Related To Head.."
+               image="https://www.researchgate.net/publication/333898976/figure/fig1/AS:771855384338432@1561036072182/Brief-anatomy-of-lower-body-bone-structure-of-human-body-3.png"
+               />
+               </Link>
+                 </div>
+
+               
+           {/* <Diseases 
                id="01"
                title="Abdominal Pain / Stomachache"
                info="Baking soda for heartburn, mix 1 teaspoon of baking soda in 8 ounces of water and drink it.
@@ -65,7 +88,7 @@ function Home() {
             <div className="home--row">
           
 
-            <Component 
+            <Diseases 
                id="04"
                title="Headache /Migrane"
                info="Remedies that may reduce headache pain include aspirin, paracetamol and ibuprofen. Resting in a darkened room may also help."
@@ -94,7 +117,7 @@ function Home() {
 
             <div className="home--row">
            
-          <Component
+          <Diseases
                id="06"
                title="Dizziness"
                info="Moving more slowly from a sitting or lying position to a standing one may help reduce dizziness. Drinking plenty of decaffeinated fluids and avoiding smoking may also help."
@@ -119,7 +142,7 @@ function Home() {
             </div>
             <div className="home--row">
            
-          <Component
+          <Diseases
                id="06"
                title="Chest Pain"
                info="To prevent heartburn, it's best to avoid lying down for at least two hours after eating. Avoiding fats, chocolate and citrus foods may also help. Antacid medications may ease symptoms immediately. Other medications such as omeprazole and ranitidine take longer to work, but may provide more effective relief if prescribed by a doctor."
@@ -137,7 +160,7 @@ function Home() {
                </div>
 
                <div className='home--row'>
-               <Component 
+               <Diseases 
                id="05"
                title="Vomitting"
                info="Taking small sips of oral rehydration solution (ORS) may help prevent dehydration. If fluids stay down, eating toast, crackers, gelatin or other easy-to-digest foods may ease an upset stomach."
@@ -150,14 +173,14 @@ function Home() {
                Feel extremely thirsty, urinate infrequently or become light-headed"
                /> */}
 
-               </div>
+               
              
                
 
                
 
             </div> 
-            {/* <Component 
+            {/* <Diseases 
                id="01"
                title="Abdominal Pain / Stomachache"
                info="Baking soda for heartburn, mix 1 teaspoon of baking soda in 8 ounces of water and drink it.

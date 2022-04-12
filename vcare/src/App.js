@@ -9,6 +9,8 @@ import * as React from 'react';
 import Footer from './Footer';
 // import { Switch, Route } from "react-router-dom";
 import { BrowserRouter as Router,Switch, Route } from "react-router-dom";
+import Body from './Body';
+import Lowerbody from './Lowerbody';
 
 function App() {
   return (
@@ -19,10 +21,18 @@ function App() {
           <Header />
             <Head/>        
           </Route>
+          <Route path="/body">
+          <Header />
+            <Body/>        
+          </Route>
+          <Route path="/lowerbody">
+          <Header />
+            <Lowerbody/>        
+          </Route>
             <Route path="/">
               <Header />   
               <Home />
-              <Footer/>
+              {/* <Footer/> */}
     
             </Route>   
         </Switch>

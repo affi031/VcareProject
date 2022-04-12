@@ -1,5 +1,6 @@
 import "./Head.css"
 import Component from "./Component";
+// import Component from "./Component";
 import * as React from 'react';
 function Head(){
     return(
