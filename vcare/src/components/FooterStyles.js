@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const Box = styled.div`
 padding: 80px 60px;
-background: black;
-position:absolute;
-bottom:0;
+background: #0E5EA0;
+position: absolute;
+// bottom: 0;
 width: 100%;
 
 
@@ -48,7 +48,7 @@ font-size: 18px;
 text-decoration: none;
 
 &:hover {
-	color: green;
+	color: #052754;
 	transition: 200ms ease-in;
 }
 `;

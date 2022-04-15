@@ -1,18 +1,12 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    
-}
 .home{
     display: flex;
     justify-content: center;
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
-
     /* background-color: #ECF4FA; */
     /* background: color #136307; */
-
+   
     
 }
  
@@ -20,13 +14,14 @@
     /* align-items: stretch; */
     background-color: #ECF4FA;
     /* padding-right:20px; */
-    z-index: -1000;
+    z-index: inherit;
+    
     height: 500%;
     width: 100%;
     margin-left: 5px;
     margin-right: 1px;
-    display: grid;
-    grid-gap: 5px;
+    /* display: grid; */
+    /* grid-gap: 5px; */
     
     
     
@@ -63,6 +58,7 @@
     /* background-color: #; */
     height: 750px;
     display: grid;
+    z-index: -100;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 5px;
@@ -102,20 +98,38 @@
     grid-row-start: 4;
     grid-row-end: 5;
     width: 300px;
+    /* z-index: 1000; */
     /* height: 200px; */
     -ms-transform: rotate(-20deg); /* IE 9 */
     transform: rotate(-20deg);
-    z-index: -1;
+    /* z-index: -1; */
 }
 .home--imagecenter{
     grid-column-start: 6;
     grid-column-end: 7;
     grid-row-start: 4;
-    grid-row-end: 8;
-    margin-right: 3px;
+    grid-row-end: 5;
+    
     /* margin-left: 12px; */
     /* padding-right: 13px; */
 
+}
+.home--button{
+   /* margin-top: 400px; */
+   grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    /* grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 8; */
+    /* margin-left: 300px; */
+    font-size: 20px;
+    background-color: #FD7959;
+    border: 1px #ECF4FA;
+    font-weight: 600;
+    color: #ECF4FA;
 }
 .search--input{
    height: 25px;
@@ -125,12 +139,11 @@
 
 }
 .home--image4{
-    grid-column-start: 20;
-    grid-column-end: 40;
-    grid-row-start: 9;
-    grid-row-end: 6;
-    width: 300px;
-    height: 200px;
+    grid-column-start: 23;
+    grid-column-end: 50;
+    grid-row-start: 11;
+    grid-row-end: 7;
+   
     /* -ms-transform: rotate(-20deg); /* IE 9 */
     /* transform: rotate(20deg);  */
     width: 300px;
@@ -148,7 +161,7 @@
     /* height: 200px; */
     -ms-transform: rotate(-20deg); /* IE 9 */
     transform: rotate(-20deg);
-    z-index: -1;
+    /* z-index: -1; */
     width: 300px;
     height: 200px;
 }
@@ -159,7 +172,7 @@
     grid-row-end: 7;
     -ms-transform: rotate(-20deg); /* IE 9 */
     transform: rotate(-20deg);
-    z-index: -1;
+    /* z-index: -1; */
     height: 250px;
     width: 150px;
     
@@ -170,22 +183,37 @@
     grid-column-end: 39;
     grid-row-start: 9;
     grid-row-end: 10;
-    width: 300px;
+    height: 250px;
+    width: 150px;
     /* height: 200px; */
     -ms-transform: rotate(-20deg); /* IE 9 */
     transform: rotate(-20deg);
-    z-index: -1;
+    z-index: 10;
     /* width: 300px;
     height: 200px; */
 
 }
-.home--row--container{
+.home--image8{
+    grid-column-start: 10;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 11;
+    height: 200px;
+    width: 300px;
+    /* height: 200px; */
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    transform: rotate(-20deg);
+    z-index: 10;
+}.home--row--container{
     display: flex;
     flex-direction: row;
+    align-items:stretch;
     /* padding-right: 120px; */
     /* justify-content: center; */
+    /* background-color: white; */
+    z-index: 10000;
     width: 100%;
-    margin-left: 70px;
+    margin-left: 100px;
     max-width: 1100px;
     justify-content: space-between;
     background-repeat: no-repeat;
@@ -197,28 +225,23 @@
     /* margin-right: 2px; */
     /* background-color: #ECF4FA ; */
     display: flex;
+    flex-direction: column;
     /* align-items: center; */
     border-radius: 15px;
+    margin-right: 1px;
+    z-index: 10000;
     /* background-repeat: no-repeat; */
     justify-content: space-between;
     max-width: 150px;
     /* justify-content: center; */
     /* margin-bottom: -100px; */
 }
-.autocom-box{
-    overflow-y: auto;
-    opacity: 0;
-    pointer-events: none;
-}
-.human-body{
-    align-items: center;
-    margin-top: 50px;
-    margin-left: 550px;
-    justify-content: center;
 
-}
+
+
 .home--row--class{
-    background-color: white;
-    /* z-index: -100; */
+    /* background-color: white; */
+    z-index: 10000;
     margin-right: -50px;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-blue-minimalist-medical-banner-image_261515.jpg);
 }

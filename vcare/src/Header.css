@@ -2,11 +2,11 @@
     background-color: white; 
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: flex-s;
    height: 60px;
-   position: sticky;
+   position: fixed;
    top: 0;
-   z-index: 100;
+   z-index: 10000000;
    width: 1500px;
    
 }
@@ -18,7 +18,8 @@
    /* object-fit: contain; */
    object-fit: cover;
    align-items: center;
-   margin-left: 290px;
+   margin-left: 500px;
+   z-index: 1000;
 
 }
 
