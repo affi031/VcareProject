@@ -29,7 +29,6 @@ title="spider veins"
 
 image=""
 info="Wearing makeup or self-tanning lotion may help hide red marks. Protecting skin from the sun may also help."
-image=""
 info1="The following symptoms are not urgent or life-threatening, but make an appointment to see a doctor if you experience: Achy, 
 heavy legs that are typically relieved when elevated for at least 15 minutes. Burning, throbbing sensation over an enlarged vein. Muscle cramping and restless legs at night."
 />
@@ -55,7 +54,7 @@ More than one ligament or the fibrous cartilage in your knee also is injured. Th
 
 image=""
 title="Swollen feet"
-image=""
+
 info="1 Drink 8 to 10 glasses of water per day. ...
 2 Buy compression socks. ...
 3 Soak in a cool Epsom salt bath for about 15 to 20 minutes. ...
