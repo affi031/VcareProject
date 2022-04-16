@@ -53,9 +53,7 @@ function Header() {
           <div className="header--nav">
             {/* <Link > */}
             <div  className="header--option">
-            <Link to="/login">
-          <button  className='home--button'>Sign in</button>
-          </Link>
+  
           </div>
           {/* </Link> */}
 

@@ -1,4 +1,4 @@
-.body{
-    position: relative;
-    margin-top:9px;
+.Body{
+    position: absolute;
+    top: 60px;
 }

@@ -4,10 +4,16 @@ import './Home.css';
 import Diseases from './Diseases';
 import { Link } from 'react-router-dom';
 
+import { useStateValue } from './StateProvider';
+import { auth } from "./firebase";
+
 function Home() {
+
     return (
         <div className="home">
+          <div className='image--container--class'></div>
         <div className="home--container">
+          <div className='image-conatiner--class'>
              <div className='image--container'>
                 
          
@@ -19,12 +25,40 @@ function Home() {
           <img className='home--image3' src='https://asclepius.ancorathemes.com/splash/src/img/hero/left/4.jpg'></img>
           <img className='home--image4' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/4.jpg'></img>
           <img className='home--image5' src='https://asclepius.ancorathemes.com/splash/src/img/hero/left/6.jpg'></img>
-          <img className='home--imagecenter' src='https://asclepius.ancorathemes.com/splash/src/img/logo.svg'></img>
-          <img className='home--image8' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/2.jpg'></img>
+          
+         
+          {/* <img className='home--image8' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/2.jpg'></img> */}
           <img className='home--image6' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/3.png'></img>
           {/* <img className='home--image7' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/6.jpg'></img> */}
 
           </div>
+          <Link to="/">
+          <img className='home--imagecenter' src='https://asclepius.ancorathemes.com/splash/src/img/logo.svg'></img>
+          </Link>
+          <Link to={'/login'}>
+          <button  className='home--button'>Sign In</button>
+          
+          </Link>
+          <div className='image--container'>
+                
+         
+          <img className="home--image1" src="https://asclepius.ancorathemes.com/splash/src/img/hero/left/2.jpg" ></img>
+          
+          
+         
+          <img className='home--image2 ' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/1.jpg'></img>
+          <img className='home--image3' src='https://asclepius.ancorathemes.com/splash/src/img/hero/left/4.jpg'></img>
+          <img className='home--image4' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/4.jpg'></img>
+          <img className='home--image5' src='https://asclepius.ancorathemes.com/splash/src/img/hero/left/6.jpg'></img>
+          
+         
+          {/* <img className='home--image8' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/2.jpg'></img> */}
+          <img className='home--image6' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/3.png'></img>
+          {/* <img className='home--image7' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/6.jpg'></img> */}
+
+          </div>
+          </div>
+          
           <div className="home--row--class">
           
             <div className='home--row--container'>

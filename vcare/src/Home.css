@@ -14,7 +14,7 @@
     /* align-items: stretch; */
     background-color: #ECF4FA;
     /* padding-right:20px; */
-    z-index: inherit;
+    /* z-index: inherit; */
     
     height: 500%;
     width: 100%;
@@ -53,10 +53,19 @@
      mask-image: linear-gradient(to 
      bottom, rgba(0,0,0,1),rgba(0,0,0,0));
 } */
+.image--container--class{
+    /* height: 1000px; */
+    /* margin-bottom: -500px */
+
+}
 
 .image--container{
     /* background-color: #; */
-    height: 750px;
+    /* height: 750px; */
+    padding-bottom: 120px;
+    height: 500px;
+    
+    /* padding-bottom: -300px; */
     display: grid;
     z-index: -100;
     grid-template-columns: repeat(8, 1fr);
@@ -68,35 +77,26 @@
 }
 .home--image1{
     margin-left: 13px;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
+     margin-top: 3px;
     width: 300px;
     height: 200px;
     -ms-transform: rotate(-20deg); /* IE 9 */
   transform: rotate(-20deg);
 }
 .home--image2{
-    grid-column-start: 20;
-    grid-column-end: 40;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    margin-top: 170px;
+    margin-left: -125px;
     width: 300px;
     height: 200px;
     /* -ms-transform: rotate(20deg); /* IE 9 */
     /* transform: rotate(20deg);  */
-    width: 300px;
-    height: 400px;
+    /* width: 300px;
+    height: 400px; */
     -ms-transform: rotate(-20deg); /* IE 9 */
   transform: rotate(-20deg);
 }
 .home--image3{
-    margin-left: 13px;
-    grid-column-start: 1;
-    grid-column-end: 9;
-    grid-row-start: 4;
-    grid-row-end: 5;
+ 
     width: 300px;
     /* z-index: 1000; */
     /* height: 200px; */
@@ -105,27 +105,27 @@
     /* z-index: -1; */
 }
 .home--imagecenter{
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    
-    /* margin-left: 12px; */
+
+    margin-top: -180px;
+    margin-bottom: 60px;
+    margin-left: 600px;
     /* padding-right: 13px; */
 
 }
 .home--button{
-   /* margin-top: 400px; */
-   grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 4;
-    grid-row-end: 5;
+ 
     /* grid-column-start: 6;
     grid-column-end: 7;
     grid-row-start: 7;
     grid-row-end: 8; */
     /* margin-left: 300px; */
+    margin-top: -40px;
+    margin-left: -140px;
+    margin-bottom: 80px;
     font-size: 20px;
+    height: 50px;
+    width: 140px;
+    /* width: 40px; */
     background-color: #FD7959;
     border: 1px #ECF4FA;
     font-weight: 600;
@@ -139,10 +139,7 @@
 
 }
 .home--image4{
-    grid-column-start: 23;
-    grid-column-end: 50;
-    grid-row-start: 11;
-    grid-row-end: 7;
+   
    
     /* -ms-transform: rotate(-20deg); /* IE 9 */
     /* transform: rotate(20deg);  */
@@ -152,11 +149,7 @@
   transform: rotate(-20deg);
 }
 .home--image5{
-    margin-left: 30px;
-    grid-column-start: 1;
-    grid-column-end: 9;
-    grid-row-start: 9;
-    grid-row-end: 10;
+ 
     width: 300px;
     /* height: 200px; */
     -ms-transform: rotate(-20deg); /* IE 9 */
@@ -166,10 +159,7 @@
     height: 200px;
 }
 .home--image6{
-    grid-column-start: 8;
-    grid-column-end:35;
-    grid-row-start: 3;
-    grid-row-end: 7;
+  
     -ms-transform: rotate(-20deg); /* IE 9 */
     transform: rotate(-20deg);
     /* z-index: -1; */
@@ -179,10 +169,7 @@
 }
 .home--image7{
     /* margin-left: 30px; */
-    grid-column-start: 20;
-    grid-column-end: 39;
-    grid-row-start: 9;
-    grid-row-end: 10;
+  
     height: 250px;
     width: 150px;
     /* height: 200px; */
@@ -194,10 +181,7 @@
 
 }
 .home--image8{
-    grid-column-start: 10;
-    grid-column-end: 4;
-    grid-row-start: 8;
-    grid-row-end: 11;
+   
     height: 200px;
     width: 300px;
     /* height: 200px; */
@@ -242,6 +226,7 @@
 .home--row--class{
     /* background-color: white; */
     z-index: 10000;
+    margin-top: -300px;
     margin-right: -50px;
     background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-blue-minimalist-medical-banner-image_261515.jpg);
 }
