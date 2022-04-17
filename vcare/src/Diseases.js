@@ -8,7 +8,7 @@ function Diseases({id, title, info,info1, image}) {
 
     return (
       <div className="diseases">
-          <p  className="title" id='title'>{title}</p>
+          <p  className="diseases--title" id='title'>{title}</p>
         <div className="diseases--container">
             
            
@@ -18,7 +18,8 @@ function Diseases({id, title, info,info1, image}) {
           
          <div className="diseases--info">   
              {/* <h3 className='remedie'>Self Treatment</h3>    */}
-            <p className="info" id  ="info">{info}</p>
+             
+            <p className="diseases--text" id  ="info">{info}</p>
             {/* <h3 className='remedie'>Go To Doctor immediately if ...</h3> */}
             <p  className="info" id='info1'>{info1}</p> 
             

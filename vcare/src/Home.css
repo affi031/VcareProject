@@ -66,7 +66,7 @@
     /* height: 750px; */
     /* padding-bottom: 170px; */
     height: 600px;
-    
+    /* padding-bottom: 6px; */
     /* padding-bottom: -300px; */
     display: grid;
     z-index: -100000;
@@ -117,7 +117,7 @@
 .home--text{
     margin-top: -50px;
     margin-bottom: 60px;
-    margin-left: 450px;
+    margin-left: 400px;
     font-size:35px;
     color: #011954;
     font-weight: 700;
@@ -153,7 +153,7 @@
     /* height: 100%; */
 }
 .home--image6{
-    margin-left: 25px;
+    margin-left: 40px;
     -ms-transform: rotate(-20deg); /* IE 9 */
     transform: rotate(-20deg);
     z-index: 1;
@@ -229,7 +229,7 @@
     background-color: white;
     /* z-index: 10000; */
     /* background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-blue-minimalist-medical-banner-image_261515.jpg); */
-    margin-top: -300px;
+    margin-top: -430px;
     margin-left: -3px;;
     margin-right: -50px;
     z-index: 1000;

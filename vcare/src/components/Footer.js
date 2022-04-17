@@ -11,10 +11,11 @@ Heading,
 const Footer = () => {
 return (
 	<Box>
-	<h1 style={{ color: "green",
+	<h1 style={{ color: "#011954",
 				textAlign: "center",
-				marginTop: "-50px" }}>
-		{/* GeeksforGeeks: A Computer Science Portal for Geeks */}
+				marginTop: "-50px",
+				paddingBottom:"25px" }}>
+		Learn more about us 
 	</h1>
 	<Container>
 		<Row>
@@ -28,14 +29,12 @@ return (
 			<Heading>Services</Heading>
 			<FooterLink href="#">Writing</FooterLink>
 			<FooterLink href="#">Internships</FooterLink>
-			<FooterLink href="#">Coding</FooterLink>
+			<FooterLink href="https://github.com/affi031/VcareProject">Coding</FooterLink>
 			<FooterLink href="#">Teaching</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>
-			<FooterLink href="#">Uttar Pradesh</FooterLink>
-			<FooterLink href="#">Ahemdabad</FooterLink>
-			<FooterLink href="#">Indore</FooterLink>
+			<FooterLink href="#">Navi Mumbai</FooterLink>
 			<FooterLink href="#">Mumbai</FooterLink>
 		</Column>
 		<Column>

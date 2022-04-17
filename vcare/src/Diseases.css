@@ -47,12 +47,15 @@
 .diseases{
     /* display: table-column; */
     display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
     flex-direction: column;
     margin-right: 30px;
     background-color: #9FDBFE;
     z-index: 1;
+    /* text-align: center; */
     align-items: center;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     /* margin: 10px; */
     /* padding: 20px; */
     /* width: 100%; */
@@ -64,15 +67,21 @@
      bottom, rgba(0,0,0,1),rgba(0,0,0,0)); */
      z-index: -1;
      padding-bottom: 30px;
+     text-decoration: none;
 
 }
-.title{
+.diseases--title{
+    margin-right: 60px;
     font-size: 30px;
-    padding-bottom: 0;
+    margin-bottom: 20px;
+    text-decoration: none;
 }
-.info{
+.diseases--text{
     /* font-weight: 1??00; */
+    margin-top: -80px;
     font-size: 20px;
+    text-decoration: none;
+    color:#011954 ;
 }
 .diseases--image{
     /* background-image: url(https://image.shutterstock.com/image-vector/swoosh-leaf-letter-v-260nw-428350549.jpg); */
