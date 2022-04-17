@@ -18,9 +18,21 @@
    /* object-fit: contain; */
    object-fit: cover;
    align-items: center;
-   margin-left: 500px;
+   margin-left: 630px;
    z-index: 1000;
 
+}
+.home--button{
+   font-size: 20px;
+   height: 40px;
+   width: 140px;
+   /* width: 40px; */
+   background-color: #FD7959;
+   border: 1px #ECF4FA;
+   border-radius: 2px;
+   font-weight: 600;
+   color: #ECF4FA;
+   margin-left: 250px;
 }
 
 

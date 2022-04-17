@@ -35,25 +35,20 @@ function Home() {
           <Link to="/">
           <img className='home--imagecenter' src='https://asclepius.ancorathemes.com/splash/src/img/logo.svg'></img>
           </Link>
-          <Link to={'/login'}>
-          <button  className='home--button'>Sign In</button>
+          <p className='home--text'>Vcare,Check Your Solutions Here</p>
           
-          </Link>
           <div className='image--container'>
                 
          
-          <img className="home--image1" src="https://asclepius.ancorathemes.com/splash/src/img/hero/left/2.jpg" ></img>
-          
-          
-         
-          <img className='home--image2 ' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/1.jpg'></img>
-          <img className='home--image3' src='https://asclepius.ancorathemes.com/splash/src/img/hero/left/4.jpg'></img>
-          <img className='home--image4' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/4.jpg'></img>
-          <img className='home--image5' src='https://asclepius.ancorathemes.com/splash/src/img/hero/left/6.jpg'></img>
+          <img className="home--image1" src="https://asclepius.ancorathemes.com/splash/src/img/demo/3.jpg" ></img>  
+          <img className='home--image2 ' src='https://asclepius.ancorathemes.com/splash/src/img/demo/8.jpg'></img>
+          <img className='home--image3' src='https://asclepius.ancorathemes.com/splash/src/img/demo/9.jpg'></img>
+          <img className='home--image4' src='https://asclepius.ancorathemes.com/splash/src/img/demo/13.jpg'></img>
+          {/* <img className='home--image5' src='https://asclepius.ancorathemes.com/splash/src/img/demo/2.jpg'></img> */}
           
          
           {/* <img className='home--image8' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/2.jpg'></img> */}
-          <img className='home--image6' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/3.png'></img>
+          <img className='home--image6' src='https://asclepius.ancorathemes.com/splash/src/img/demo/2.jpg'></img>
           {/* <img className='home--image7' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/6.jpg'></img> */}
 
           </div>
@@ -72,14 +67,6 @@ function Home() {
                
                </Link>
               </div>
-            <div className="home--row">
-               <Link to="/body">
-              <Diseases 
-               info="Click Here To CHeck Diseases Related To Body.."
-               image="https://scontent.fbom51-1.fna.fbcdn.net/v/t1.18169-9/69866_151413974900531_7782621_n.jpg?stp=cp0_dst-jpg_e15_p320x320_q65&_nc_cat=103&ccb=1-5&_nc_sid=7aed08&_nc_ohc=toVhc1RSsNIAX-DHfBf&_nc_ht=scontent.fbom51-1.fna&oh=00_AT-BiwenYWgPBNn37cYS42_BcKMCAyhxdyWgzv6fLO7acg&oe=627A19F0"
-               />
-               </Link>
-                 </div>
                  <div className="home--row">
                <Link to="/body">
               <Diseases 
@@ -89,14 +76,7 @@ function Home() {
                />
                </Link>
                  </div>
-                 <div className="home--row">
-               <Link to="/body">
-              <Diseases 
-               info="Click Here To CHeck Diseases Related To Body.."
-               image="https://scontent.fbom51-1.fna.fbcdn.net/v/t1.18169-9/69866_151413974900531_7782621_n.jpg?stp=cp0_dst-jpg_e15_p320x320_q65&_nc_cat=103&ccb=1-5&_nc_sid=7aed08&_nc_ohc=toVhc1RSsNIAX-DHfBf&_nc_ht=scontent.fbom51-1.fna&oh=00_AT-BiwenYWgPBNn37cYS42_BcKMCAyhxdyWgzv6fLO7acg&oe=627A19F0"
-               />
-               </Link>
-                 </div>
+              
               
                  <div className="home--row">
                <Link to="/lowerbody">

@@ -57,7 +57,7 @@ function Login() {
                   <button type='submit' onClick={signIn} className='login--signButton'>Sign In</button>
               </form>
               <p>By continuing, you agree to Amazon's Conditions of Use and Privacy Notice, our Cookies Notice and our Internet-Based Ads Notice</p>
-         <button type='submit' onClick={register} className='login--registerButton'>Create your Amazon Account</button>
+         <button type='submit' onClick={register} className='login--registerButton'>Create your Vcare Account</button>
           </div>
         </div>
        

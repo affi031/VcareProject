@@ -24,6 +24,7 @@ function Header() {
           </Link>
           
           
+          
           <div className="header--search">
           <input className="header--searchInput" type="text" 
           // onChange={event =>{
@@ -53,7 +54,10 @@ function Header() {
           <div className="header--nav">
             {/* <Link > */}
             <div  className="header--option">
-  
+  <Link to={'/login'}>
+          <button  className='home--button'>Sign In</button>
+          
+          </Link>
           </div>
           {/* </Link> */}
 

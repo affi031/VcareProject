@@ -189,14 +189,7 @@ Vomit or have bloody diarrhoea
 Experience abdominal swelling
 Have chest pain or pressure"
                 />
-                < Component 
-               
-               title="  Alzheimer"
-               info="Selfcare: Studies show that people who are physically active are less likely to experience a decline in their mental function and have a lowered risk of developing Alzheimer's disease. Physical activity is one of the known modifiable risk factors for dementia."
-               image="https://cdn.sanity.io/images/0b678gck/buoy-public-site/8acb650aa62650532c5c2e9c8219be6ca770d3cf-1500x1500.jpg?w=768&q=70&auto=format&dpr=1"
-               info1="When to visit a doctor: What tests are used to diagnose Alzheimer's?
-Perform brain scans, such as computed tomography (CT), magnetic resonance imaging (MRI), or positron emission tomography (PET), to support an Alzheimer's diagnosis or rule out other possible causes for symptoms"
-               />
+                
     </div>
  );}
 

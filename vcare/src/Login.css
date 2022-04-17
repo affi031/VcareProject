@@ -54,7 +54,7 @@
 }
 
 .login--signButton{
-    background-color: #f0c14b;
+    background-color: #FD7959;
     border-radius: 2px;
     width: 100%;
     height: 30px;
@@ -67,7 +67,7 @@
 .login--registerButton{
     width: 100%;
     height: 30px;
-    background-color: #f0c14b; 
+    background-color: #FD7959; 
     border: 1px solid;
     margin-top: 10px;
     border-color: #a88734;
