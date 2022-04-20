@@ -151,6 +151,7 @@ The risk due to the condition varies based on a number of factors. Each case als
 image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQSiiSs7ZCHW2sIae_KrP0arzwU7onH2oHRVVZItBGhraxtDuJGZ_QTs66F_HR5z2wSZ8&usqp=CAU"
 info1="You don’t need medical attention for a brain freeze. But if you get frequent headaches that last a while, talk to your healthcare provider."
 />
+
     </div>
  );}
 

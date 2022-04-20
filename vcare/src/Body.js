@@ -5,7 +5,65 @@ import * as React from 'react';
 function Body(){
     return(
     <div className="Body">
-                <Component 
+        <Component 
+           id="01"
+           image="https://virinchihospitals.com/wp-content/uploads/2019/02/stomachpain-1200x900.jpg"
+           reason="the reson for stomache could be over eacting and lack of drinking water.
+           If any hard object hit you onstomech tha must be an option for your ache
+           the reson for stomache could be over eacting and lack of drinking water.
+           If any hard object hit you onstomech tha must be an option for your ache
+           the reson for stomache could be over eacting and lack of drinking water.
+           If any hard object hit you onstomech tha must be an option for your ache
+           the reson for stomache could be over eacting and lack of drinking water.
+           If any hard object hit you onstomech tha must be an option for your ache
+           the reson for stomache could be over eacting and lack of drinking water.
+           If any hard object hit you onstomech tha must be an option for your ache"
+           disease="This may arise inlittle upper of you stomache an you may feel a little discomfortness while sleeping "
+           title="Abdominal Pain / Stomachache"
+           info="Drinking water. ...
+           Avoiding lying down. ...\n
+           Ginger. ...\n
+           Mint. ...\n
+           Taking a warm bath or using a heating bag. ...\n
+           BRAT diet. ...\n
+           Avoiding smoking and drinking alcohol. ...\n
+           Avoiding difficult-to-digest foods"
+          //  info1="1.water"
+          //  info2="0.drin "
+          //  info3="1.water"
+          //  info4="0.drinThe abdomen is stiff or hard and tender when you or someone else touches it
+          //  Blood in stool or vomit
+          //  Constipation with vomiting . \n
+          //  Difficulty in breathing\n
+          //  Dizziness High fever (over 101 degrees Fahrenheit)
+          //  Pulsating mass in thThe abdomen is stiff or hard \nand tender when you or someone else touches it
+          //  Blood in stool or vomit\n
+          //  Constipation with vomiting\n
+          //  Difficulty in breathing\n
+          //  Dizziness High fever (over 101 degrees Fahrenheit)
+          //  Pulsating mass in the abdomen\n
+          //  Rapid pulse or rapid breathing\n
+          //  Severe pain spreading from the original location, such as to the chest, arm, neck, jaw, or shoulder
+          //  Jaundicee abdomen
+          //  Rapid pulse or rapid breathing
+          //  Severe pain spreading from the original location, such as to the chest, arm, neck, jaw, or shoulder
+          //  Jaundice "
+          
+           image1="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU6Unp-JzmQ_9jhc7_EUcb_-XUO7YrQTgPszzF11M2EA&s"
+           image2="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoYvjMfr5txa2E0jk7J2XqpAbByYolLgy7pz4fH9uzKQ&s"
+           image3="https://image.shutterstock.com/image-illustration/stomach-pain-anatomy-concept-600w-176963609.jpg"
+           image4="https://image.shutterstock.com/z/stock-vector-sad-sick-man-food-poisoning-stomach-character-vector-flat-cartoon-illustration-icon-infographic-702300673.jpg"
+           info1="The abdomen is stiff or hard and tender when you or someone else touches it
+           Blood in stool or vomit
+           Constipation with vomiting
+           Difficulty in breathing
+           Dizziness High fever (over 101 degrees Fahrenheit)
+           Pulsating mass in the abdomen
+           Rapid pulse or rapid breathing
+           Severe pain spreading from the original location, such as to the chest, arm, neck, jaw, or shoulder
+           Jaundice"
+           />
+                {/* <Component 
                
                title="Chickenpox"
                info="Oatmeal baths can be soothing and itch-relieving for chickenpox.
@@ -188,7 +246,7 @@ Develop a fever
 Vomit or have bloody diarrhoea
 Experience abdominal swelling
 Have chest pain or pressure"
-                />
+                /> */}
                 
     </div>
  );}
