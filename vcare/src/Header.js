@@ -2,17 +2,11 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Component from './Component';
 import './Header.css';
-import Home from './Home';
-// import Component from './Component';
-// import Home from './Home';
-import JSONDATA from './MOCK_DATA.json'
-// import SearchIcon from '@mui/icons-material/Search';
-// import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-// import { Link } from 'react-router-dom';
+import { selectUserName } from './userSlice';
+
 
 
 function Header() {
-
  
  
     return (
@@ -55,7 +49,7 @@ function Header() {
             {/* <Link > */}
             <div  className="header--option">
   <Link to={'/login'}>
-          <button  className='home--button'>Sign In</button>
+          <button   className='home--button'>Sign In</button>
           
           </Link>
           </div>

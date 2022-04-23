@@ -33,6 +33,11 @@
    font-weight: 600;
    color: #ECF4FA;
    margin-left: 250px;
+   
+}
+.home--button:hover{
+   background-color: white;
+   color:#FD7959 ;
 }
 
 

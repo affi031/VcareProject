@@ -6,62 +6,37 @@ function Body(){
     return(
     <div className="Body">
         <Component 
+        title="Stomachache"
            id="01"
            image="https://virinchihospitals.com/wp-content/uploads/2019/02/stomachpain-1200x900.jpg"
-           reason="the reson for stomache could be over eacting and lack of drinking water.
-           If any hard object hit you onstomech tha must be an option for your ache
-           the reson for stomache could be over eacting and lack of drinking water.
-           If any hard object hit you onstomech tha must be an option for your ache
-           the reson for stomache could be over eacting and lack of drinking water.
-           If any hard object hit you onstomech tha must be an option for your ache
-           the reson for stomache could be over eacting and lack of drinking water.
-           If any hard object hit you onstomech tha must be an option for your ache
-           the reson for stomache could be over eacting and lack of drinking water.
-           If any hard object hit you onstomech tha must be an option for your ache"
-           disease="This may arise inlittle upper of you stomache an you may feel a little discomfortness while sleeping "
-           title="Abdominal Pain / Stomachache"
-           info="Drinking water. ...
-           Avoiding lying down. ...\n
-           Ginger. ...\n
-           Mint. ...\n
-           Taking a warm bath or using a heating bag. ...\n
-           BRAT diet. ...\n
-           Avoiding smoking and drinking alcohol. ...\n
-           Avoiding difficult-to-digest foods"
-          //  info1="1.water"
-          //  info2="0.drin "
-          //  info3="1.water"
-          //  info4="0.drinThe abdomen is stiff or hard and tender when you or someone else touches it
-          //  Blood in stool or vomit
-          //  Constipation with vomiting . \n
-          //  Difficulty in breathing\n
-          //  Dizziness High fever (over 101 degrees Fahrenheit)
-          //  Pulsating mass in thThe abdomen is stiff or hard \nand tender when you or someone else touches it
-          //  Blood in stool or vomit\n
-          //  Constipation with vomiting\n
-          //  Difficulty in breathing\n
-          //  Dizziness High fever (over 101 degrees Fahrenheit)
-          //  Pulsating mass in the abdomen\n
-          //  Rapid pulse or rapid breathing\n
-          //  Severe pain spreading from the original location, such as to the chest, arm, neck, jaw, or shoulder
-          //  Jaundicee abdomen
-          //  Rapid pulse or rapid breathing
-          //  Severe pain spreading from the original location, such as to the chest, arm, neck, jaw, or shoulder
-          //  Jaundice "
-          
-           image1="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU6Unp-JzmQ_9jhc7_EUcb_-XUO7YrQTgPszzF11M2EA&s"
+             image1="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU6Unp-JzmQ_9jhc7_EUcb_-XUO7YrQTgPszzF11M2EA&s"
            image2="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoYvjMfr5txa2E0jk7J2XqpAbByYolLgy7pz4fH9uzKQ&s"
            image3="https://image.shutterstock.com/image-illustration/stomach-pain-anatomy-concept-600w-176963609.jpg"
            image4="https://image.shutterstock.com/z/stock-vector-sad-sick-man-food-poisoning-stomach-character-vector-flat-cartoon-illustration-icon-infographic-702300673.jpg"
-           info1="The abdomen is stiff or hard and tender when you or someone else touches it
-           Blood in stool or vomit
-           Constipation with vomiting
-           Difficulty in breathing
-           Dizziness High fever (over 101 degrees Fahrenheit)
-           Pulsating mass in the abdomen
-           Rapid pulse or rapid breathing
-           Severe pain spreading from the original location, such as to the chest, arm, neck, jaw, or shoulder
-           Jaundice"
+         
+           r1="1 Food Poisoning :
+           Bacteria, viruses, and parasites in food cause this illness. You may have"
+           r2="2 Stomach Virus:
+
+           Also known as the stomach flu, this is a viral infection in your intestines. You may have watery diarrhea, cramps, or nausea, and you might throw up. You can get it from someone who has it or contaminated food.
+           the reson for stomache could b."
+           r3="3 Lactose Intolerance :
+           
+           Lactose is the sugar in milk and other dairy products. If you don’t have enough of an enzyme called lactase, your body can have trouble breaking it down. "
+           
+           i1="1 Feeling bloated, farting a lot"
+          i2="2 Feeling full and bloated after eating, heartburn, feeling sick"
+          i3="3 Cannot poo"
+
+          s1="1 Drinking water. ..."
+          s2="2 Ginger"
+          s3="3 Avoiding Lying down"
+          s4="4 Mint"
+          
+          d1="1 Have recurring or persistent pain"
+          d2="2 Feel severe pain that worsens with movement"
+          d3="3 Vomit or have bloody diarrhoea0"
+          d4="4 Experience abdominal swelling"
            />
                 {/* <Component 
                
@@ -247,6 +222,27 @@ Vomit or have bloody diarrhoea
 Experience abdominal swelling
 Have chest pain or pressure"
                 /> */}
+
+                <Component
+                title=""
+                image=""
+                 image1=""
+                 image2=""
+                 image3=""
+                 image4=""
+                 r1=""
+                 r2=""
+                 r3=""
+                 i1=""
+                 i2=""
+                 i3=""
+                 s1=""
+                 s2=""
+                 s3=""
+                 d1=""
+                 d2=""
+                 d3=""
+                />
                 
     </div>
  );}
