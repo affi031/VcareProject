@@ -6,7 +6,7 @@ function Lowerbody(){
     return(
     <div className="Lowerbody">
                 
-               <Component 
+               {/* <Component 
                
                title="Lymphedema"
                info="1 Exercise. Exercise helps to restore flexibility and strength, and it improves drainage. ... 
@@ -280,14 +280,14 @@ Elevation. Use pillows to raise your foot or leg higher than your heart."
 // &q=Stress%20Fracture&hl=en&ved=2ahUKEwjMnqLSoJj3AhWD_TgGHSvdDMkQMygNegUIARDuAQ"
 info1="A stress fracture with a weak bone is harder to heal. If pain or swelling returns, stop the activity and rest for a few days. If pain continues, see your doctor. 
 Check with your doctor before starting an exercise program or before taking a job that will involve a higher level of physical activity than you are used to."
-/>
-               <Component 
+/> */}
+               {/* <Component 
                
                title=""
                info=""
                image=""
                info1=""
-               />
+               /> */}
     </div>
  );}
 

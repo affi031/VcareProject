@@ -1,90 +1,90 @@
 .header{
-    background-color: white; 
-   display: flex;
-   align-items: center;
-   justify-content: flex-s;
-   height: 60px;
-   position: fixed;
-   top: 0;
-   z-index: 10000000;
-   width: 1500px;
-   
+   background-color: white; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-s;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  z-index: 10000000;
+  width: 1500px;
+  
 }
 
 .header--logo{
-   width: 100px;
-   margin: 0 20px;
-   margin-top: 18px;
-   /* object-fit: contain; */
-   object-fit: cover;
-   align-items: center;
-   margin-left: 630px;
-   z-index: 1000;
+  width: 100px;
+  margin: 0 20px;
+  margin-top: 18px;
+  /* object-fit: contain; */
+  object-fit: cover;
+  align-items: center;
+  margin-left: 685px;
+  z-index: 1000;
 
 }
 .home--button{
-   font-size: 20px;
-   height: 40px;
-   width: 140px;
-   /* width: 40px; */
-   background-color: #FD7959;
-   border: 1px #ECF4FA;
-   border-radius: 2px;
-   font-weight: 600;
-   color: #ECF4FA;
-   margin-left: 250px;
-   
+  font-size: 20px;
+  height: 40px;
+  width: 140px;
+  /* width: 40px; */
+  background-color: #FD7959;
+  border: 1px #ECF4FA;
+  border-radius: 2px;
+  font-weight: 600;
+  color: #ECF4FA;
+  margin-left: 250px;
+  
 }
 .home--button:hover{
-   background-color: white;
-   color:#FD7959 ;
+  background-color: white;
+  color:#FD7959 ;
 }
 
 
 /* .header--search{
-   /* max-width: 100px; */
+  /* max-width: 100px; */
 
 
 /* .header--searchIcon{
-   background-color: #F3A847;
-   padding: 5px;
-   height: 22px;
+  background-color: #F3A847;
+  padding: 5px;
+  height: 22px;
 } */
 
 .header--nav{
-   display: flex;
-   justify-content: space-evenly;
-   color: black;
-   
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+  
 }
 
 .header--option{
-   color: white;
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px;
+  color: white;
+   display: flex;
+   flex-direction: column;
+   margin-left: 10px;
+   margin-right: 10px;
 }
 
 .header--optionLineOne{
-  font-size: 10px;
+ font-size: 10px;
 }
 
 .header--optionLineTwo{
-  font-size: 13px;
-  font-weight: 700;
-  text-align: center;
+ font-size: 13px;
+ font-weight: 700;
+ text-align: center;
 }
 
 
 /* .header--optionBasket{
-   color: white;
-   display: flex;
-   align-items: center;
-   
+  color: white;
+  display: flex;
+  align-items: center;
+  
 }
 
 .header--basketCount{
-   margin-left: 10px;
-   margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 } */

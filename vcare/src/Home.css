@@ -110,14 +110,15 @@
 
     margin-top: -180px;
     margin-bottom: 60px;
-    margin-left: 600px;
+    margin-left: 650px;
+    /* margin-left: 600px; */
     /* padding-right: 13px; */
 
 }
 .home--text{
     margin-top: -50px;
     margin-bottom: 60px;
-    margin-left: 400px;
+    margin-left: 450px;
     font-size:35px;
     color: #011954;
     font-weight: 700;
@@ -230,7 +231,7 @@
     /* z-index: 10000; */
     /* background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-blue-minimalist-medical-banner-image_261515.jpg); */
     margin-top: -430px;
-    margin-left: -3px;;
+    margin-left: 45px;;
     margin-right: -50px;
     z-index: 1000;
     

@@ -1,9 +1,23 @@
 import React, {useState} from 'react'
 import './Login.css';
 import { Link, useHistory } from 'react-router-dom';
-import { auth } from './firebase';
+import { auth , provider} from './firebase';
+import GoogleIcon from '@mui/icons-material/Google';
 
 function Login() {
+
+
+  const signwithgoogle = e =>{
+    auth.signInWithPopup(provider)
+    .then((result) =>{
+  
+     
+         
+      console.log(result)
+    })
+    .catch(error => alert(error.message))
+  }
+
   const history = useHistory();
       const [email, setEmail] = useState('');
       const [password, setPassword] = useState('');
@@ -58,6 +72,10 @@ function Login() {
               </form>
               <p>By continuing, you agree to Amazon's Conditions of Use and Privacy Notice, our Cookies Notice and our Internet-Based Ads Notice</p>
          <button type='submit' onClick={register} className='login--registerButton'>Create your Vcare Account</button>
+         <h3>or</h3>
+         <Link to='/home'>
+         <GoogleIcon className='googleicon' onClick={signwithgoogle}/>
+         </Link>
           </div>
         </div>
        

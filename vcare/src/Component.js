@@ -1,18 +1,36 @@
 import React from 'react'
+import ThumbUpIcon from '@mui/icons-material/ThumbUp';
+import ThumbDownAltIcon from '@mui/icons-material/ThumbDownAlt';
 import './Component.css'
 // import { useStateValue } from './StateProvider'
+
+
+function displayLikedMessage() {
+    var x = document.getElementById("snackbar");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+  }
+  function displayDislkedMessage(){
+    var x = document.getElementById("snackbar1");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+  }
 
 function Component({ title,image,image1,image2,image3,image4,
     r1,r2,r3,r4,r5,r6,r7,
     i1,i2,i3,i4,i5,i6,i7,
     s1,s2,s3,s4,s5,s6,s7,
-    d1,d2,d3,d4,d5,d6,d7
-}) {
+    d1,d2,d3,d4,d5,d6,d7,
+    snackbar
+}) 
+
+{
  
 
     return (
       <div className="component">
           <p  className="title" id='title'>{title}</p>
+     
         <div className="component--container">
             <div className='component--main--container'>
             <img className="component--main--image" src={image} alt="" />
@@ -54,6 +72,7 @@ function Component({ title,image,image1,image2,image3,image4,
           <img className="component--image" src={image2} alt="" />
           <img className="component--image" src={image3} alt="" />
           <img className="component--image" src={image4} alt="" />
+         
 
           {/* <img className="component--image" src={image} alt="" /> */}
           </div>
@@ -81,8 +100,18 @@ function Component({ title,image,image1,image2,image3,image4,
             <p className="info" id ="info1">{d6}</p>
             <p className="info" id ="info1">{d7}</p>
         </div>
-            
+        
     </div>
+    <div className='feedback--component' >
+    <div id="snackbar">We are Glad to know this Inforamtion was useful</div>
+    <div id="snackbar1">Youre feedback has been successfullu noted</div>
+
+    <ThumbUpIcon className='liked--icon' onClick={displayLikedMessage}/>
+    <ThumbDownAltIcon className='disliked--icon' onClick={displayDislkedMessage} />
+    
+
+    </div>
+    
 
         </div>  
        </div>

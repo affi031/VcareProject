@@ -6,13 +6,14 @@ import Header from './Header';
 import Home  from './Home';
 import Head from './Head';
 import * as React from 'react';
-import Footer from './components/Footer';
+
 // import { Switch, Route } from "react-router-dom";
 import { BrowserRouter as Router,Switch, Route } from "react-router-dom";
 import Body from './Body';
 import Lowerbody from './Lowerbody';
 import Login from './Login';
 
+import Mainpage from './Mainpage';
 function App() {
   return (
 <Router>
@@ -35,12 +36,14 @@ function App() {
           <Header />
             <Lowerbody/>        
           </Route>
-            <Route path="/">
+            <Route path="/main">
               <Header />   
               <Home />
-              <Footer/>
-    
-            </Route>   
+              
+            </Route>  
+            <Route path="/">
+             <Mainpage/>
+            </Route> 
         </Switch>
       </div>
       
