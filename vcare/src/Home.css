@@ -16,6 +16,7 @@
     /* padding-right:20px; */
     /* z-index: inherit; */
     /* z-index: -1; */
+    padding-bottom: 5px;
     height: 500%;
     width: 100%;
     margin-left: 5px;
@@ -210,9 +211,9 @@
     flex-direction: column;
     /* align-items: center; */
     /* border-radius: 15px; */
-    margin-right: -190px;
+    margin-right: -220px;
     padding-right: 200px;
-    padding-left: 150px;
+    padding-left: 50px;
     z-index: 10000;
     /* background-repeat: no-repeat; */
     justify-content: space-evenly;
@@ -228,6 +229,7 @@
 
 .home--row--class{
     background-color: white;
+    border-top: 12px solid #F4B8AB;
     /* z-index: 10000; */
     /* background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-blue-minimalist-medical-banner-image_261515.jpg); */
     margin-top: -430px;
@@ -235,4 +237,62 @@
     margin-right: -50px;
     z-index: 1000;
     
+}
+.top--title{
+    margin-left: 80px;
+    font-size: x-large;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+.bottom--title{
+    margin-left: 80px;
+    margin-top: -10px;
+    font-size: x-large;
+}
+.Footer{
+    border-top: 12px solid #F4B8AB;
+    margin-top: 15px;
+    height:130px;
+    background-color:  black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.Footer-component{
+    /* margin-top: 60px; */
+   /* padding-bottom: 130px; */
+   align-items: center;
+    display:  flex;
+    flex-direction: row;
+}
+.footer--title{
+    letter-spacing: 2px;
+    margin-left: 80px;
+    color:  white;
+    font-size: 20px;
+
+}
+.Icon{ 
+    margin-right: 120px;
+    margin-top: 40px;
+    /* color: blue; */
+    color: white;
+    /* size: 50px; */
+    /* width: 50px; */
+}
+.twitter--icon:hover{
+    color: #1DA1F2;
+}
+
+.Insta--icon :hover{
+    color:   #DF003E;
+}
+
+.Fb--icon:hover{
+    color:  #4867AA;
+}
+.Yt--icon:hover{
+    color: #FE0000;
+
 }

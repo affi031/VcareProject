@@ -6,7 +6,7 @@ import Header from './Header';
 import Home  from './Home';
 import Head from './Head';
 import * as React from 'react';
-
+import Footer from './Footer';
 // import { Switch, Route } from "react-router-dom";
 import { BrowserRouter as Router,Switch, Route } from "react-router-dom";
 import Body from './Body';
@@ -14,6 +14,8 @@ import Lowerbody from './Lowerbody';
 import Login from './Login';
 
 import Mainpage from './Mainpage';
+import QuickReleif from './QuickReleif';
+import PersonalHygiene from './PersonalHygiene';
 function App() {
   return (
 <Router>
@@ -23,6 +25,7 @@ function App() {
           <Header />
             <Head/>        
           </Route>
+
           <Route path="/login">
           <Header />
             <Login/>        
@@ -32,18 +35,32 @@ function App() {
           <Header />
             <Body/>        
           </Route>
+
           <Route path="/lowerbody">
           <Header />
             <Lowerbody/>        
           </Route>
+
             <Route path="/main">
               <Header />   
               <Home />
+              <Footer/>
               
             </Route>  
             <Route path="/">
              <Mainpage/>
             </Route> 
+
+            <Route path=".\/quickrelief">
+          <QuickReleif/>       
+          </Route>
+
+          <Route path='/personalhygiene'>
+            <Header/>
+            <PersonalHygiene/>
+          </Route>
+
+
         </Switch>
       </div>
       

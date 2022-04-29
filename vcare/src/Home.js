@@ -3,7 +3,10 @@ import React from 'react'
 import './Home.css';
 import Diseases from './Diseases';
 import { Link } from 'react-router-dom';
-
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 import { useStateValue } from './StateProvider';
 import { auth } from "./firebase";
 
@@ -58,20 +61,75 @@ function Home() {
           
             <div className='home--row--container'>
             <div className="home--row">
+              <h4 className='top--title'>HEAD</h4>
                <Link to="./head">
                   
                 <Diseases 
-                title="Head"
+                
+               info="Click Here To CHeck Diseases Related To Head."
+               image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYt6gsJ0vwS7g2spmfsHnVUd2tl08mzlu47Q&usqp=CAU"  
+               />
+               
+               </Link>
+              </div>
+              <div className="home--row">
+              
+               <Link to="./head">
+                  
+                <Diseases 
+                
                info="Click Here To CHeck Diseases Related To Head."
                image="https://www.prints-online.com/p/164/anatomy-head-throat-609838.jpg.webp"  
                />
                
                </Link>
+               <h4 className='bottom--title'>HEAD</h4>
+              </div>
+                 <div className="home--row">
+                 <h4 className='top--title'>Body</h4>
+               <Link to="/body">
+              <Diseases 
+             
+               info="Click Here To CHeck 
+               Diseases Related To Body."
+               image="https://thumb.mp-farm.com/00444232/preview.jpg"
+               />
+               </Link>
+                 </div>
+                 <div className="home--row">
+               <Link to="/personalhygiene">
+                  
+                <Diseases 
+               
+               info="Click Here To CHeck Diseases Related To Head."
+               image="https://cdn5.vectorstock.com/i/1000x1000/52/59/healthy-personal-hygiene-background-vector-12585259.jpg"  
+               />
+               
+               </Link>
+               <h4 className='bottom--title'>personal hygiene</h4>
+
+              </div>
+         </div>
+
+{/* Second row of home --row class */}
+
+                 <div className='home--row--container'>
+            <div className="home--row">
+            <Link to="./quickrelief">
+                  
+                <Diseases 
+               
+               info="Click Here To CHeck Diseases Related To Head."
+               image="https://cdn.dribbble.com/users/535/screenshots/642918/quickrelief.png"
+               />
+               
+               </Link>
+               <h4 className='bottom--title'>Quick Relief</h4>
               </div>
                  <div className="home--row">
                <Link to="/body">
               <Diseases 
-              title="Body"
+              
                info="Click Here To CHeck 
                Diseases Related To Body."
                image="https://scontent.fbom51-1.fna.fbcdn.net/v/t1.18169-9/69866_151413974900531_7782621_n.jpg?stp=cp0_dst-jpg_e15_p320x320_q65&_nc_cat=103&ccb=1-5&_nc_sid=7aed08&_nc_ohc=toVhc1RSsNIAX-DHfBf&_nc_ht=scontent.fbom51-1.fna&oh=00_AT-BiwenYWgPBNn37cYS42_BcKMCAyhxdyWgzv6fLO7acg&oe=627A19F0"
@@ -83,18 +141,44 @@ function Home() {
                  <div className="home--row">
                <Link to="/lowerbody">
               <Diseases 
-              title="LowerBody"
+              
                info="Click Here To CHeck Diseases Related To LowerBody."
                image="https://www.researchgate.net/publication/333898976/figure/fig1/AS:771855384338432@1561036072182/Brief-anatomy-of-lower-body-bone-structure-of-human-body-3.png"
                />
                </Link>
                  </div>
                  </div>
+                 <div className='Footer'>
+                 
+        <div className='Footer--component'>
+        <p className='footer--title'>You Can coonect us through ..</p>
+        <a href='#'>
+          <TwitterIcon className='twitter--icon  Icon'/>
+          </a>
+         
+          <a href='#'>
+          <InstagramIcon className='Insta--icon  Icon'/>
+          </a>
+
+          <a href='#'>
+          <FacebookIcon className='Fb--icon  Icon'/>
+          </a>
+
+          <a href='#'>
+          <YouTubeIcon className='Yt--icon  Icon'/>
+          </a>
+
+          
+        </div>
+    </div>
 
                
           </div>
+
             </div>
+          
         </div>  
+        
     )
 }
 
