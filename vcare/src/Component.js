@@ -1,20 +1,12 @@
-import React from 'react'
+import React,{useState}  from 'react'
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import ThumbDownAltIcon from '@mui/icons-material/ThumbDownAlt';
 import './Component.css'
-// import { useStateValue } from './StateProvider'
+import { padding, width } from '@mui/system';
 
 
-function displayLikedMessage() {
-    var x = document.getElementById("snackbar");
-    x.className = "show";
-    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-  }
-  function displayDislkedMessage(){
-    var x = document.getElementById("snackbar1");
-    x.className = "show";
-    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-  }
+// const [num,setnum]=useState(0);
+
 
 function Component({ title,image,image1,image2,image3,image4,
     r1,r2,r3,r4,r5,r6,r7,
@@ -23,8 +15,28 @@ function Component({ title,image,image1,image2,image3,image4,
     d1,d2,d3,d4,d5,d6,d7,
     snackbar
 }) 
-
 {
+const [num,setnum]=useState(0,0);
+
+
+function displayLikedMessage() {
+    setnum(num+1);
+    var x = document.getElementById("snackbar");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+  }
+  function displayDislkedMessage(){
+      if(num>0)
+      {
+    setnum(num-1);
+  }
+    var x = document.getElementById("snackbar1");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+  }
+
+
+
  
 
     return (
@@ -106,9 +118,16 @@ function Component({ title,image,image1,image2,image3,image4,
     <div id="snackbar">We are Glad to know this Inforamtion was useful</div>
     <div id="snackbar1">Youre feedback has been successfullu noted</div>
 
+
     <ThumbUpIcon className='liked--icon' onClick={displayLikedMessage}/>
+    <p
+    style={{
+        fontSize:"20px",
+        fontWeight:"600",
+        maxWidth:"50px"
+    }}>{num}</p>
     <ThumbDownAltIcon className='disliked--icon' onClick={displayDislkedMessage} />
-    
+   
 
     </div>
     

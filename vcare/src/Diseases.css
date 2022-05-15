@@ -4,9 +4,11 @@
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-bottom: 5px;
+    
     flex-direction: column;
     /* margin-right: 30px; */
-    background-color: #ECF4FA;
+    /* background-color: #ECF4FA; */
     z-index: 1;
     /* text-align: center; */
     align-items: center;
@@ -17,7 +19,7 @@
     height: 350px;
     width: 290px;
     /* min-width: 100px; */
-    border-radius: 1px;
+    /* border-radius: 1px; */
     /* mask-image: linear-gradient(to 
      bottom, rgba(0,0,0,1),rgba(0,0,0,0)); */
      z-index: -1;
@@ -44,31 +46,54 @@
     /* padding-top: 5px; */
     /* margin-top: 50px; */
     /* height: 230px; */
-    height: 350px;
-    width: 290px;
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 20%;
     /* padding-left: 40px; */
     /* margin-right: 0px; */
     /* margin-bottom: 50px; */
-    margin-left:-20px;
+
     z-index: 1;
+    transition: 0.3s all ease-in-out;
+    box-shadow: 0 2px px rgba(0,0,0,.5);
     
     /* border-radius: 15px; */
     /* border-bottom-left-radius: 15px; */
     
 }
-.diseases:hover{
+/* .diseases:hover{ */
     /* transform: scale(1.1);
     transition: 0.4s ease-in-out;
     transition-delay: 0.1s;
     filter: brightness(70%); */
-    position: relative; 
-             top: -5px;
-             transition: 10000ms;
+    /* position: relative;  */
+             /* top: -5px; */
+             /* transition: 10000ms; */
+             /* transform: scale(1.1); */
              /* -webkit-transition: all 20ms ease;
 -moz-transition: all 200ms ease;
 -ms-transition: all 20ms ease;
 -o-transition: all 20ms ease;
 transition: all 20ms ease; */
+/* } */
+
+.diseases--image:hover{
+    z-index: 30;
+    transform: scale(1.11);
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+
+.diseases--image::before
+{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100;
+    height:100%;
+    z-index:1 ;
+    background:linear-gradient(180deg,#f00,#000);
 }
 .diseases--container{
     /* background-image: url(https://image.shutterstock.com/image-vector/swoosh-leaf-letter-v-260nw-428350549.jpg); */

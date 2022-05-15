@@ -14,8 +14,13 @@ import Lowerbody from './Lowerbody';
 import Login from './Login';
 
 import Mainpage from './Mainpage';
-import QuickReleif from './QuickReleif';
+// import QuickReleif from './QuickReleif';
 import PersonalHygiene from './PersonalHygiene';
+import Yoga from './Yoga';
+import QuickRelief from './QuickRelief';
+import HealthyDIet from './HealthyDIet';
+
+// import QuickR from './QuickR';
 function App() {
   return (
 <Router>
@@ -24,6 +29,9 @@ function App() {
         <Route path="/head">
           <Header />
             <Head/>        
+          </Route>
+          <Route path='/personalhygien'>
+            <PersonalHygiene/>
           </Route>
 
           <Route path="/login">
@@ -40,6 +48,9 @@ function App() {
           <Header />
             <Lowerbody/>        
           </Route>
+          <Route path='/yoga'>
+            <Yoga/>
+          </Route>
 
             <Route path="/main">
               <Header />   
@@ -51,13 +62,17 @@ function App() {
              <Mainpage/>
             </Route> 
 
-            <Route path=".\/quickrelief">
-          <QuickReleif/>       
+            <Route path="/quickrelief">
+          <QuickRelief/>       
           </Route>
-
+          
+            
           <Route path='/personalhygiene'>
             <Header/>
             <PersonalHygiene/>
+          </Route>
+          <Route path='/healthydiet'>
+            <HealthyDIet/>
           </Route>
 
 

@@ -1,0 +1,38 @@
+
+
+.card{
+    background-color: #208293;
+        display: flex;
+    width:1000px;
+    margin: 10px;
+    border-radius: 10px;
+    /* text-decoration: none; */
+    /* padding: 50px; */
+}
+
+.ph--title{
+    font-size: 30px;
+    padding: 4px;
+}
+.title--image{
+    margin:0  10px 10px 10px;
+    text-align: center;
+}
+.ph--image{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+}
+
+.ph--info{
+    display: flex;
+    margin-top: 30px;
+}
+
+.self--treatment,
+.doctor--treatment{
+    /* text-align: center; */
+    background-color: #ADF0D1;
+    margin: 10px ;
+    max-width: 400px;
+}

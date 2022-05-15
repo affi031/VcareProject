@@ -67,6 +67,23 @@
 
     
 }
+.component--image:hover{
+    z-index: 30;
+    transform: scale(1.11);
+    box-shadow: 0 25px 40px rgba(0,0,0,.5);
+}
+
+.component--image::before
+{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100;
+    height:100%;
+    z-index:1 ;
+    background:linear-gradient(180deg,#f00,#000);
+}
 .component--container{
     /* background-image: url(https://image.shutterstock.com/image-vector/swoosh-leaf-letter-v-260nw-428350549.jpg); */
     display: flex;
@@ -108,7 +125,7 @@
     padding-bottom: 15px;
 }
 .component--main--image{
-    margin-top:50px ;
+    /* margin-top:50px ; */
     border: 4px solid #1F6E68;
     height: 200px;
     width: 200px;
@@ -119,6 +136,7 @@
     flex-direction: row;
     margin-left: 15px;
     padding-bottom: 31px;
+    min-height: 200px
 }
 .info{
     padding-bottom: 10px;
@@ -172,10 +190,14 @@ color: white;
 .feedback--component{
     margin-left: 110px;
     margin-top: 20px;
+    display: flex;
 }
 
 .liked--icon{
     padding-right: 15px;
+}
+.disliked--icon{
+    margin-left: 10px;
 }
 #snackbar1,
 #snackbar {
