@@ -1,6 +1,7 @@
 import React,{useState}  from 'react'
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import ThumbDownAltIcon from '@mui/icons-material/ThumbDownAlt';
+
 import './Component.css'
 import { padding, width } from '@mui/system';
 
@@ -16,16 +17,21 @@ function Component({ title,image,image1,image2,image3,image4,
     snackbar
 }) 
 {
-const [num,setnum]=useState(0,0);
+const [num,setnum]=useState(0);
+const [num1,setnum1]=useState(0);
 
 
 function displayLikedMessage() {
     setnum(num+1);
+    if(num1>0){
+    setnum1(num1-1);
+    }
     var x = document.getElementById("snackbar");
     x.className = "show";
     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
   }
   function displayDislkedMessage(){
+    setnum1(num1+1);
       if(num>0)
       {
     setnum(num-1);
@@ -116,7 +122,7 @@ function displayLikedMessage() {
     </div>
     <div className='feedback--component' >
     <div id="snackbar">We are Glad to know this Inforamtion was useful</div>
-    <div id="snackbar1">Youre feedback has been successfullu noted</div>
+    <div id="snackbar1">Your feedback has been successfully noted</div>
 
 
     <ThumbUpIcon className='liked--icon' onClick={displayLikedMessage}/>
@@ -124,10 +130,17 @@ function displayLikedMessage() {
     style={{
         fontSize:"20px",
         fontWeight:"600",
-        maxWidth:"50px"
+        maxWidth:"50px",
+        marginLeft:"8px"
     }}>{num}</p>
     <ThumbDownAltIcon className='disliked--icon' onClick={displayDislkedMessage} />
-   
+    <p
+    style={{
+        fontSize:"20px",
+        fontWeight:"600",
+        maxWidth:"50px",
+        marginLeft:"8px"
+    }}>{num1}</p>
 
     </div>
     

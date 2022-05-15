@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './PersonalHygiene.css'
+import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 function PersonalHygiene() {
   return (
     <div className='personalhygiene'>
@@ -46,7 +47,10 @@ function PersonalHygiene() {
         </div>
        
       </div>
-      <p>Click on the image to know its full detail</p>
+    <div className='director' >
+      <InfoOutlinedIcon  className='info--icon'/>
+      <p className='info--text'>CLICK ON THE IMAGE ABOVE TO GET FULL DETAILS!</p>
+      </div>
       
       
       <div className='card ph--card'>
@@ -88,8 +92,11 @@ function PersonalHygiene() {
         </div>
        
       </div>
-      <p>Click on the image to know its full detail</p>
-     
+      <div className='director' >
+      <InfoOutlinedIcon  className='info--icon'/>
+      <p className='info--text'>CLICK ON THE IMAGE ABOVE TO GET FULL DETAILS!</p>
+      </div>
+
       <div className='card ph--card'>
         <div className=' title--image'>
           <p className='ph--title'>
@@ -134,8 +141,10 @@ function PersonalHygiene() {
         </div>
        
       </div>
-      <p>Click on the image to know its full detail</p>
-
+ <div className='director' >
+      <InfoOutlinedIcon  className='info--icon'/>
+      <p className='info--text'>CLICK ON THE IMAGE ABOVE TO GET FULL DETAILS!</p>
+      </div>
 
       {/* NEW ROW  */}
 
@@ -183,8 +192,10 @@ function PersonalHygiene() {
         </div>
        
       </div>
-      <p>Click on the image to know its full detail</p>
-
+      <div className='director' >
+      <InfoOutlinedIcon  className='info--icon'/>
+      <p className='info--text'>CLICK ON THE IMAGE ABOVE TO GET FULL DETAILS!</p>
+      </div>
       {/* NEW ROW */}
 
 
@@ -232,7 +243,10 @@ function PersonalHygiene() {
         </div>
        
       </div>
-      <p>Click on the image to know its full detail</p>
+      <div className='director' >
+      <InfoOutlinedIcon  className='info--icon'/>
+      <p className='info--text'>CLICK ON THE IMAGE ABOVE TO GET FULL DETAILS!</p>
+      </div>
 
       {/* NEW ROWW */}
 
@@ -280,7 +294,10 @@ function PersonalHygiene() {
         </div>
        
       </div>
-      <p>Click on the image to know its full detail</p>
+ <div className='director' >
+      <InfoOutlinedIcon  className='info--icon'/>
+      <p className='info--text'>CLICK ON THE IMAGE ABOVE TO GET FULL DETAILS!</p>
+      </div>
     </div>
   )
 }

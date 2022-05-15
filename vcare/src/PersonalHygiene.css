@@ -36,3 +36,14 @@
     margin: 10px ;
     max-width: 400px;
 }
+.director{
+    display: flex;
+    margin-left: 10px;
+    /* align-items: center;
+    text-align: center;
+    justify-self: center; */
+}
+.info--text{
+    font-weight: 500;
+    margin-left: 4px;
+}
