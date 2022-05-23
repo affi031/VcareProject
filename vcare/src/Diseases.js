@@ -1,8 +1,5 @@
 import React from 'react'
 import './Diseases.css'
-import { useState } from 'react';
-// import { useStateValue } from './StateProvider'
-
 function Diseases({id, title, info,info1, image}) {
  
 

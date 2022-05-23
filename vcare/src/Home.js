@@ -7,8 +7,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-import { useStateValue } from './StateProvider';
-import { auth } from "./firebase";
+
 
 function Home() {
 
@@ -20,41 +19,26 @@ function Home() {
              <div className='image--container'>
                 
          
-          <img className="home--image1" src="https://asclepius.ancorathemes.com/splash/src/img/hero/left/2.jpg" ></img>
+          <img className="home--image1" src="https://asclepius.ancorathemes.com/splash/src/img/hero/left/2.jpg" alt='loading' ></img>
           
           
          
-          <img className='home--image2 ' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/1.jpg'></img>
-          <img className='home--image3' src='https://asclepius.ancorathemes.com/splash/src/img/hero/left/4.jpg'></img>
-          <img className='home--image4' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/4.jpg'></img>
-          <img className='home--image5' src='https://asclepius.ancorathemes.com/splash/src/img/hero/left/6.jpg'></img>
+          <img className='home--image2 ' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/1.jpg' alt='loading'></img>
+          <img className='home--image3' src='https://asclepius.ancorathemes.com/splash/src/img/hero/left/4.jpg' alt='loading'></img>
+          <img className='home--image4' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/4.jpg' alt='loading'></img>
+          <img className='home--image5' src='https://asclepius.ancorathemes.com/splash/src/img/hero/left/6.jpg' alt='loading'></img>
           
          
           {/* <img className='home--image8' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/2.jpg'></img> */}
-          <img className='home--image6' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/3.png'></img>
+          <img className='home--image6' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/3.png' alt='loading'></img>
           {/* <img className='home--image7' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/6.jpg'></img> */}
 
           </div>
           <Link to="/">
-          <img className='home--imagecenter' src='https://asclepius.ancorathemes.com/splash/src/img/logo.svg'></img>
+          <img className='home--imagecenter' src='https://asclepius.ancorathemes.com/splash/src/img/logo.svg' alt='loading'></img>
           </Link>
           <p className='home--text'>Vcare,Check Your Solutions Here</p>
-          
-          {/* <div className='image--container'> */}
-                
-         
-          {/* <img className="home--image1" src="https://asclepius.ancorathemes.com/splash/src/img/demo/3.jpg" ></img>  
-          <img className='home--image2 ' src='https://asclepius.ancorathemes.com/splash/src/img/demo/8.jpg'></img>
-          <img className='home--image3' src='https://asclepius.ancorathemes.com/splash/src/img/demo/9.jpg'></img>
-          <img className='home--image4' src='https://asclepius.ancorathemes.com/splash/src/img/demo/13.jpg'></img>
-          {/* <img className='home--image5' src='https://asclepius.ancorathemes.com/splash/src/img/demo/2.jpg'></img> */}
-          
-         
-          {/* <img className='home--image8' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/2.jpg'></img> */}
-          {/* <img className='home--image6' src='https://asclepius.ancorathemes.com/splash/src/img/demo/2.jpg'></img> */}
-          {/* <img className='home--image7' src='https://asclepius.ancorathemes.com/splash/src/img/hero/right/6.jpg'></img> */} 
-
-          {/* </div> */}
+        
           </div>
           
           <div className="home--row--class">
@@ -174,7 +158,7 @@ function Home() {
                  
         <div className='Footer--component'>
         <p className='footer--title'>You Can Connect us through ..</p>
-        <a href='#'>
+        <a href='https://twitter.com/explore'>
           <TwitterIcon className='twitter--icon  Icon'/>
           </a>
          
@@ -186,7 +170,7 @@ function Home() {
           <FacebookIcon className='Fb--icon  Icon'/>
           </a>
 
-          <a href='#'>
+          <a href='https://youtube.com/channel/UCTsqTwHPs3nirzsKcU6TwIA'>
           <YouTubeIcon className='Yt--icon  Icon'/>
           </a>
 

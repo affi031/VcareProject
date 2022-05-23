@@ -1,13 +1,7 @@
 import React,{useState}  from 'react'
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import ThumbDownAltIcon from '@mui/icons-material/ThumbDownAlt';
-
 import './Component.css'
-import { padding, width } from '@mui/system';
-
-
-// const [num,setnum]=useState(0);
-
 
 function Component({ title,image,image1,image2,image3,image4,
     r1,r2,r3,r4,r5,r6,r7,
